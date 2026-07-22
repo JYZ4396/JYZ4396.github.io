@@ -327,6 +327,18 @@ section {
     margin-top: 0;
     color: var(--primary);
 }
+.skill-list {
+    margin: 0;
+    padding-left: 22px;
+}
+
+.skill-list li {
+    margin-bottom: 8px;
+}
+
+.skill-list li:last-child {
+    margin-bottom: 0;
+}
 
 
 /* ---------- Contact ---------- */
