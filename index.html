@@ -2,19 +2,372 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JY Z | Portfolio</title>
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Academic and data science portfolio of JY Z, an Economics and Data Science student at the University of Florida."
+    >
+
+    <title>JY Z | Academic Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1>JY Z</h1>
 
-    <p>
-        Economics and Data Science student at the University of Florida.
-    </p>
+    <!-- Navigation -->
 
-    <p>
-        This portfolio is currently under development.
-    </p>
+    <header class="site-header">
+        <nav class="navbar container">
+            <a class="site-name" href="#home">JY Z</a>
+
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#research">Research</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+
+    <main>
+
+        <!-- Hero -->
+
+        <section class="hero" id="home">
+            <div class="container hero-content">
+
+                <p class="hero-label">
+                    Academic Portfolio
+                </p>
+
+                <h1>JY Z</h1>
+
+                <h2>
+                    Economics and Data Science Student
+                    at the University of Florida
+                </h2>
+
+                <p class="hero-description">
+                    I am interested in probability, optimization,
+                    statistical learning, time series, and quantitative
+                    research. My work combines data analysis,
+                    computational modeling, and interdisciplinary
+                    research experience.
+                </p>
+
+                <div class="button-group">
+                    <a class="button button-primary" href="#projects">
+                        View Projects
+                    </a>
+
+                    <a
+                        class="button button-secondary"
+                        href="https://github.com/JYZ4396"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        GitHub Profile
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- About -->
+
+        <section id="about">
+            <div class="container">
+
+                <h2 class="section-title">About Me</h2>
+
+                <p class="section-intro">
+                    I am pursuing undergraduate degrees in Economics
+                    and Data Science at the University of Florida.
+                    My academic interests center on the use of
+                    mathematical, statistical, and computational
+                    methods to study complex and uncertain systems.
+                </p>
+
+                <div class="card-grid">
+
+                    <article class="card">
+                        <h3>Academic Interests</h3>
+
+                        <p>
+                            Probability and stochastic modeling,
+                            optimization, statistical learning,
+                            econometrics, causal inference, time series,
+                            and quantitative research.
+                        </p>
+                    </article>
+
+                    <article class="card">
+                        <h3>Current Goals</h3>
+
+                        <p>
+                            I am preparing for graduate study in
+                            operations research, data science,
+                            statistics, or applied mathematics, with
+                            the long-term goal of conducting rigorous
+                            quantitative research.
+                        </p>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Research -->
+
+        <section id="research">
+            <div class="container">
+
+                <h2 class="section-title">Research Experience</h2>
+
+                <p class="section-intro">
+                    My research experience includes community
+                    resilience, environmental health, climate-related
+                    risk, survey research, literature review, and
+                    interdisciplinary collaboration.
+                </p>
+
+                <div class="research-list">
+
+                    <article class="research-item">
+                        <h3>
+                            Disasters, Trust &amp; Social Change Lab
+                        </h3>
+
+                        <p class="research-role">
+                            Undergraduate Research Assistant
+                            · University of Florida
+                        </p>
+
+                        <p>
+                            Contributed to community resilience and
+                            environmental health research through
+                            literature reviews, survey collection,
+                            interviews, project meetings, and
+                            community-based research activities.
+                        </p>
+                    </article>
+
+
+                    <article class="research-item">
+                        <h3>
+                            Belmont Forum COMDISP Project
+                        </h3>
+
+                        <p class="research-role">
+                            Project Team Member
+                        </p>
+
+                        <p>
+                            Supported an international research project
+                            examining housing-related health disparities
+                            exacerbated by climate change across the
+                            United States, Türkiye, and Vietnam.
+                        </p>
+                    </article>
+
+
+                    <article class="research-item">
+                        <h3>
+                            Natural Hazards Workshop
+                        </h3>
+
+                        <p class="research-role">
+                            Undergraduate Research Presenter
+                        </p>
+
+                        <p>
+                            Participated in research presentations
+                            addressing climate change, housing and
+                            health disparities, environmental risk,
+                            and community resilience.
+                        </p>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Projects -->
+
+        <section id="projects">
+            <div class="container">
+
+                <h2 class="section-title">Featured Projects</h2>
+
+                <p class="section-intro">
+                    Selected work demonstrating data preparation,
+                    machine learning, statistical evaluation, and
+                    research interpretation.
+                </p>
+
+                <article class="project-card">
+
+                    <div class="project-content">
+
+                        <h3>
+                            Predicting High-Unusual Coastal Debris Events
+                        </h3>
+
+                        <p>
+                            I developed a binary classification project
+                            using coastal-cleanup records from 2015 to
+                            2026. The target identifies cleanup events
+                            in the top 25% of unusual-debris share.
+                        </p>
+
+                        <p>
+                            I compared Logistic Regression, Random Forest,
+                            and Gradient Boosting models using accuracy,
+                            precision, recall, F1-score, ROC-AUC, and
+                            PR-AUC. I also conducted a no-year robustness
+                            check and constructed a cleaner 2023–2025
+                            model after identifying strong temporal
+                            dependence in the full-period model.
+                        </p>
+
+                        <p>
+                            Gradient Boosting produced the strongest
+                            predictive performance. The restricted model
+                            showed that geographic variables, including
+                            cleanup zone, longitude, and latitude, were
+                            among the most important predictors.
+                        </p>
+
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">pandas</span>
+                            <span class="tag">scikit-learn</span>
+                            <span class="tag">Machine Learning</span>
+                            <span class="tag">Classification</span>
+                            <span class="tag">Feature Importance</span>
+                        </div>
+
+                        <div class="project-links">
+                            <a
+                                class="project-link"
+                                href="https://github.com/JYZ4396/unusual-coastal-trash-ml"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                View Repository
+                            </a>
+                        </div>
+
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+
+        <!-- Skills -->
+
+        <section id="skills">
+            <div class="container">
+
+                <h2 class="section-title">Skills</h2>
+
+                <p class="section-intro">
+                    Technical and quantitative skills developed through
+                    coursework, research, and independent projects.
+                </p>
+
+                <div class="skills-grid">
+
+                    <article class="skill-card">
+                        <h3>Programming</h3>
+
+                        <p>
+                            Python, R, MATLAB, Jupyter Notebook,
+                            Git, and GitHub.
+                        </p>
+                    </article>
+
+                    <article class="skill-card">
+                        <h3>Data Analysis</h3>
+
+                        <p>
+                            pandas, NumPy, scikit-learn,
+                            data cleaning, exploratory data analysis,
+                            classification, model evaluation,
+                            and data visualization.
+                        </p>
+                    </article>
+
+                    <article class="skill-card">
+                        <h3>Quantitative Training</h3>
+
+                        <p>
+                            Probability, statistical theory,
+                            regression analysis, econometrics,
+                            mathematical proof, game theory,
+                            and stochastic processes.
+                        </p>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Contact -->
+
+        <section class="contact-section" id="contact">
+            <div class="container">
+
+                <h2 class="section-title">Contact</h2>
+
+                <p>
+                    I welcome opportunities to discuss research,
+                    quantitative methods, graduate study, and
+                    interdisciplinary data science projects.
+                </p>
+
+                <div class="contact-links">
+
+                    <a
+                        href="https://github.com/JYZ4396"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        GitHub
+                    </a>
+
+                    <!-- Replace the address below with the email
+                         you want to display publicly. -->
+
+                    <a href="mailto:YOUR_EMAIL@example.com">
+                        Email
+                    </a>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+    <footer>
+        <div class="container">
+            © 2026 JY Z. Built with GitHub Pages.
+        </div>
+    </footer>
+
 </body>
 </html>
